@@ -1,0 +1,80 @@
+.nav-wrapper{
+    background-color:rgb(170,0,44) ;
+    font-size: 30;  
+    font-family: 'Cousine', monospace;
+}
+
+.brand-logo{
+    margin-left: 1.8%;
+}
+#Hudson-Dorms{
+    color:rgb(170,0,44);
+    position: relative;
+    right: -60rem;
+}
+#avatar{
+    width:70%;
+    height: auto;
+    border-radius: 85%;
+    border: 1px solid rgb(170,0,44);
+    margin-left: 8rem;
+    margin-top: -3rem;
+}
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e0e0e0;
+    color: black;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 0.1rem;
+ }
+ .logo{
+     width: 6%;
+     margin: 0.9%;
+
+ }
+ .title{
+    color:rgb(170,0,44);
+    font-family: 'Cousine', monospace; 
+    margin: 1.8%;
+ }
+.text{
+    font-family: 'Indie Flower', cursive;
+    float: right;
+    font-size: 40px;
+    
+}
+#line1{
+    margin-bottom: -3rem;
+    padding-right: 7rem;
+}
+#line2{
+    margin-bottom: -2rem;
+    padding-right: 3rem;
+    padding-left: 4rem;
+}
+#line3{
+    padding-right: 5rem;
+}
+.inf {
+    font-family: 'Cuprum', sans-serif;
+}
+#about-us{
+    margin-top: -7rem;
+    width: 44rem;
+}
+#contacts-div{
+    margin-top: -7rem;
+}
+#let-us-know{
+    margin-left: -10rem;
+}
+#contact-inf{
+    padding-left: 9rem;
+}
+#contact-form{
+    padding-left: 9rem;
+}
