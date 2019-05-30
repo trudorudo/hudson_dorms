@@ -79,39 +79,80 @@
 }
 #contact-form{
     padding-left: 9rem;
+    width: 55rem;
 }
 #contats-title{
     margin-top: -6rem;
     padding-bottom: 5rem;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1095px){
     #avatar{
         margin-left: 45rem;
-        margin-top: -7rem;
+        margin-top: 0.1rem;
         margin-bottom: 1rem;
     }
-    #about-us{
-        width: 60rem;
-        margin-left: 3rem;
+    #about-title{
+        margin-top: -12rem;
+        margin-left: 7rem;
     }
-    #inf1{
-        margin-top: 3rem;
-    }
+    .clearfix {
+        overflow: auto;
+      }
+   
 
 }
+
+@media screen and (max-width: 980px){
+      
+    /* #about-us{
+        margin-left: 2rem;
+    } */
+    /* #inf1{
+        margin-top: 3rem;
+    } */
+    .clearfix {
+        overflow: auto;
+    }
+    #contact-form{
+        width: 50rem;
+    }
+   
+}
+@media screen and (max-width: 938px){
+      
+    #about-us{
+        margin-left: 2rem;
+    }
+    #inf1{
+        margin-top: 6rem;
+    }
+    .clearfix {
+        overflow: auto;
+    }
+    #contact-form{
+        width: 50rem;
+    }
+   
+}
+
 @media screen and  (max-width: 768px){
+    #about-us {
+        margin-left: 1rem;
+        margin-top: 11rem;
+    }
     #avatar{
-        margin-left: 23rem;
-        margin-top: -5rem;
+        margin-left: 13rem;
+       
         width: 140%;
         /* float: right; */
         
     }; 
-    #about-us{
-        margin-top: -8rem;
-        
+    #about-title{
+        margin-top: 7rem;
+        margin-left: 15rem;
     }
+   
     #inf{
         width: 45rem;
     }
@@ -141,9 +182,14 @@
     }
 }
 @media screen and  (max-width: 640px){
-    #inf{
-        width: 40rem;
-        margin-left: 20rem;
+    #contacts-down{
+        margin-top: 30rem;
+        margin-left: -14rem;
+    }
+    #contact-form{
+        margin-top: 6rem;
+        margin-left: 7rem;
+        width: 56rem;
     }
 }
 @media screen and (max-width: 480px){
@@ -157,7 +203,7 @@
         font-size: 2rem;
     }
     #about-title{
-        margin-top: -16rem;
+        margin-top: -12rem;
         margin-left: 6rem;
     }
     #avatar{
@@ -168,7 +214,7 @@
     #inf{
         margin-left: -1rem;
         width: 30rem;
-        margin-top: 19rem;
+        margin-top: 1rem;
     }
     #contacts-down{
         margin-top: 27rem;
@@ -179,7 +225,10 @@
         margin-left: 3rem;
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 440px){
+    #HDtitle{
+        font-size: 1rem;
+    }
     #line1{
         font-size: 1.5rem;
         padding-bottom: 4%;
@@ -195,11 +244,7 @@
         margin-top: -12rem;
         margin-left: 3rem;
     }
-    #inf{
-        margin-left: -1rem;
-        width: 25rem;
-        margin-top: 14rem;
-    }
+   
     #contact-form{
         margin-top: 6rem;
         margin-left: 3rem;
