@@ -15,8 +15,6 @@
 #avatar{
     width:70%;
     height: auto;
-    border-radius: 85%;
-    border: 1px solid rgb(170,0,44);
     margin-left: 8rem;
     margin-top: -3rem;
 }
@@ -40,6 +38,7 @@
     color:rgb(170,0,44);
     font-family: 'Cousine', monospace; 
     margin: 1.8%;
+    
  }
 .text{
     font-family: 'Indie Flower', cursive;
@@ -68,13 +67,150 @@
 }
 #contacts-div{
     margin-top: -7rem;
+    border-right: 2px solid lightgrey;
 }
 #let-us-know{
-    margin-left: -10rem;
+    margin-left: 7rem;
+    margin-top: 6.5rem;
+    font-size: 1.5rem;
 }
 #contact-inf{
-    padding-left: 9rem;
+    padding-left: 4rem;
 }
 #contact-form{
     padding-left: 9rem;
+}
+#contats-title{
+    margin-top: -6rem;
+    padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 980px){
+    #avatar{
+        margin-left: 45rem;
+        margin-top: -7rem;
+        margin-bottom: 1rem;
+    }
+    #about-us{
+        width: 60rem;
+        margin-left: 3rem;
+    }
+    #inf1{
+        margin-top: 3rem;
+    }
+
+}
+@media screen and  (max-width: 768px){
+    #avatar{
+        margin-left: 23rem;
+        margin-top: -5rem;
+        width: 140%;
+        /* float: right; */
+        
+    }; 
+    #about-us{
+        margin-top: -8rem;
+        
+    }
+    #inf{
+        width: 45rem;
+    }
+    .logo{
+        width: 13%;
+    }
+    #contact-div{
+        margin-left: -4rem;
+    }
+    #contacts-title{
+        margin-left: -12rem;
+        margin-top: -5rem;
+    }
+    #let-us-know{
+        display: none;
+    }
+    #contact-form{
+        margin-top: 4rem;
+        padding-left: 2rem;
+        width: 45rem;
+    }
+    #contacts-div{
+        border-right: white;
+    }
+    #line1{
+        margin-left: 1rem;
+    }
+}
+@media screen and  (max-width: 640px){
+    #inf{
+        width: 40rem;
+        margin-left: 20rem;
+    }
+}
+@media screen and (max-width: 480px){
+    #line1{
+        font-size: 2rem;
+    }
+    #line2{
+        font-size: 2rem;
+    }
+    #line3{
+        font-size: 2rem;
+    }
+    #about-title{
+        margin-top: -16rem;
+        margin-left: 6rem;
+    }
+    #avatar{
+        margin-left: 5rem;
+        margin-top: 1rem;
+        width: 190%;
+    }
+    #inf{
+        margin-left: -1rem;
+        width: 30rem;
+        margin-top: 19rem;
+    }
+    #contacts-down{
+        margin-top: 27rem;
+        margin-left: -14rem;
+    }
+    #contact-form{
+        margin-top: 6rem;
+        margin-left: 3rem;
+    }
+}
+@media screen and (max-width: 400px){
+    #line1{
+        font-size: 1.5rem;
+        padding-bottom: 4%;
+    }
+    #line2{
+        font-size: 1.5rem;
+    }
+    #line3{
+        font-size: 1.5rem;
+        padding-left: 5%;
+    }
+    #about-title{
+        margin-top: -12rem;
+        margin-left: 3rem;
+    }
+    #inf{
+        margin-left: -1rem;
+        width: 25rem;
+        margin-top: 14rem;
+    }
+    #contact-form{
+        margin-top: 6rem;
+        margin-left: 3rem;
+        width: 39rem;
+    }
+    #contacts-down{
+        border-top: 2px solid grey;
+        padding-top: 1rem;
+    }
+
+    .parallax-container {
+        height: 4px;
+      }
 }
