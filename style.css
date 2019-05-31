@@ -78,4 +78,9 @@
     .logoHD{
         margin-left: 0rem;
     }
+    #contact-form{
+        border-right: 2px solid white;
+        padding-bottom: 9px;
+        border-bottom: 2px solid lightgray;
+    }
 }
