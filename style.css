@@ -4,9 +4,9 @@
     font-family: 'Cousine', monospace;
 }
 
-/* .brand-logo{
-    margin-left: 1.8%;
-} */
+#avatar{
+    width: 120%;
+}
 #hd{
     margin-left: 2rem;
 }
@@ -45,7 +45,7 @@
 #avatar{
     width: 120%;
     margin-left: -4rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
 }
 .inf {
     font-family: 'Cuprum', sans-serif;
@@ -67,6 +67,10 @@
         border-right: 2px solid white;
         padding-bottom: 9px;
         border-bottom: 2px solid lightgray;
+    }
+    #avatar{
+        margin-left: -1rem;
+        width: 100%;
     }
 }
 
