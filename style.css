@@ -244,18 +244,25 @@
         margin-top: -12rem;
         margin-left: 3rem;
     }
+    #inf{
+            width: 63%;
+    }
    
     #contact-form{
         margin-top: 6rem;
         margin-left: 3rem;
-        width: 39rem;
+        width: 100%;
     }
-    #contacts-down{
+    /* #contacts-down{
         border-top: 2px solid grey;
         padding-top: 1rem;
-    }
+    } */
 
     .parallax-container {
         height: 4px;
+      }
+      #picture-backgr{
+        width: 125%;
+        height: 270px;
       }
 }
