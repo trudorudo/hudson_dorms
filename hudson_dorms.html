@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hudson Dorms</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/materialize.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cousine&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo" id="hd">Hudson Dorms</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down" style="margin-right: 3rem;">
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#contact-us">Contacts</a></li>
+                <li><a href="#references">References</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#about-us">About</a></li>
+        <li><a href="#contact-us">Contacts</a></li>
+        <li><a href="#references">References</a></li>
+
+    </ul>
+
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+
+                <div class="row center">
+                    <h5 class="header col s12 light" id="quots">"We believe students should focus on studying,rather than nervously
+                        waiting for an apartment to open up in the hopes of getting
+                        off a housing waitlist." <br> -Cofounders Mike Guglielmo and TJ Stanton</h5>
+                </div>
+
+                <br><br>
+
+            </div>
+        </div>
+        <div class="parallax"><img src="images/view.jpeg" alt="Unsplashed background img 1"></div>
+    </div>
+
+    <div class="container" id="about-us">
+        <div class="section">
+                <h2 class="logoHD"> <img src="images/logo.png" style="width:8%;"> </h2>
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <img class="circle" id="avatar" src="images/photo1.jpeg" alt="our img" style="width: 120%;">
+                    </div>
+                </div>
+
+                <div class="col s12 m8">
+                    <div class="icon-block">
+
+                        <h5 class="title"  id=>About Us</h5>
+
+                        <p class="inf">Hudson Dorms was started by two Stevens grads after years of suboptimal
+                            living
+                            arrangements in
+                            Hoboken. From poor maintenance, to mid-semester apartment changes, to lack of functional
+                            amenities,
+                            it was apparent that there was no "best option" for student housing in Hoboken:
+
+                            Hudson Dorms was created to change that.
+                            <br>
+                            We believe students should focus on studying, rather than nervously waiting for an
+                            apartment
+                            to
+                            open
+                            up in the hopes of getting off a housing waitlist. How is that even a thing? Every
+                            apartment
+                            is
+                            fully furnished, with the aesthetic managed by a professional interior designer. All
+                            amenities
+                            are
+                            included and we pride ourselves on flexibility to make sure that each group of students
+                            has
+                            their
+                            needs met. We looked at existing choices available in Hoboken and systematically created
+                            a
+                            better
+                            option for each service provided from cheaper housing, to better discounts around town,
+                            to a
+                            cheaper
+                            organic meal plan delivered straight to your door.
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+
+            </div>
+        </div>
+        <div class="parallax"><img src="images/references.jpeg" alt="Unsplashed background img 2"></div>
+    </div>
+
+    <div class="container" id="contact-us">
+        <div class="section">
+                <h2 class="logoHD"> <img src="images/logo.png" style="width:8%;"> </h2>
+            <div class="row">
+                <h2 class="title" id="contacts-title" style="margin-left: 4rem;"> Contacts</h2>
+                <div class="col s12 m6">
+                    <div class="row" id="contact-form">
+                        <form class="col s12">
+                            <div class="row">
+
+                                <div class="input-field col s7">
+                                    <input id="last_name" type="text" class="validate">
+                                    <label for="last_name">Name</label>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="input-field col s7">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s7">
+
+                                    <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                    <label for="icon_prefix2">Message</label>
+                                </div>
+                            </div>
+                            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                                <i class="material-icons right">send</i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <div class="col s6" id="contact-inf">
+                        <div id="contacts-down">
+                            <p class="lead"> <i class="material-icons">edit_location</i><br> Hoboken, NJ</p>
+                            <p class="lead"><i class="material-icons">call</i><br> +1 (201) 417 - 8592</p>
+                            <p class="lead"><i class="material-icons">email</i> hudsondorms@gmail.com </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="parallax-container" id="picture-backgr">
+        <div class="parallax"><img src="images/photo2.jpeg"></div>
+    </div>
+
+    <div class="container" id="references">
+        <div class="section">
+                <h2 class="logoHD"> <img src="images/logo.png" style="width:8%;"> </h2>  
+            <!--   Icon Section   -->
+            <div class="row">
+                    <h2 class="title" style="margin-left: 4rem;"> References</h2>
+                <div class="col s12 m12">
+                    <div class="carousel carousel-slider center">
+
+                        <div class="carousel-item grey black-text" href="#one!" style="height:10rem;">
+                            <!-- <h2>First Panel</h2>
+                                        <p class="white-text">This is your first panel</p> -->
+                            <div class="col s6">
+                                <img src="images/kitty1.jpg" style="width:40%; border-radius: 85%; ">
+                            </div>
+                            <div class="col s6">
+                                <p>I absolutely loved it!!!</p>
+                                <p>I absolutely loved it!!!</p>
+                                <p>I absolutely loved it!!!</p>
+                                <p>I absolutely loved it!!!</p>
+                                <p>I absolutely loved it!!!</p>
+                                <p>I absolutely loved it!!!</p>
+                                <p>I absolutely loved it!!!</p>
+                                <p>I absolutely loved it!!!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item grey black-text" href="#two!">
+                            <!-- <h2>Second Panel</h2>
+                                <p class="white-text">This is your second panel</p> -->
+                            <div class="col s6">
+                                <img src="images/kitty3.jpg" style="width:40%; border-radius: 85%; ">
+                            </div>
+                            <div class="col s6">
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item grey black-text" href="#three!">
+                            <!-- <h2>Third Panel</h2>
+                                <p class="white-text">This is your third panel</p> -->
+                            <div class="col s6">
+                                <img src="images/dog4.jpeg" style="width:60%; border-radius: 85%; ">
+                            </div>
+                            <div class="col s6">
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                                <p class="black-text">I absolutely loved it!!!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="parallax-container" id="picture-backgr">
+        <div class="parallax"><img src="images/references.jpeg"></div>
+    </div>
+
+    <div class="footer">
+            <div class="row">
+                <div class="col s6">
+                    <p id="copyright"> Copyright © 2019</p>
+                </div>
+                <div class="col s6">
+                    <p id="follow-me">
+                        <a href="#" target="blank"><img class="logo" src="images/inst.png"></a>
+                        <a href="#" target="blank"> <img class="logo" src="images/facebook.png"></a>
+                        <a href="#" target="blank"> <img class="logo" src="images/skype-logo.jpg"></a>
+                        <a href="#" target="blank"> <img class="logo" src="images/twitter-logo.png"></a>
+                    </p>
+                </div>
+    
+            </div>
+        </div>
+    
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js.js"></script>
+
+</body>
