@@ -8403,9 +8403,7 @@ input[type=range]::-ms-thumb {
   line-height: 32px;
 }
 
-.carousel.carousel-slider .carousel-item p {
-  font-size: 15px;
-}
+
 
 .carousel .carousel-item {
   visibility: hidden;
@@ -8420,14 +8418,7 @@ input[type=range]::-ms-thumb {
   width: 100%;
 }
 
-.carousel .indicators {
-  position: absolute;
-  text-align: center;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: 0;
-}
+
 
 .carousel .indicators .indicator-item {
   display: inline-block;
@@ -8436,14 +8427,14 @@ input[type=range]::-ms-thumb {
   height: 8px;
   width: 8px;
   margin: 24px 4px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgb(170,0,44);
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
   border-radius: 50%;
 }
 
 .carousel .indicators .indicator-item.active {
-  background-color: #fff;
+  background-color: grey;
 }
 
 .carousel.scrolling .carousel-item .materialboxed,

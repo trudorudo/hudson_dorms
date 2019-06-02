@@ -1,19 +1,19 @@
 
-  $(document).ready(function(){
-    $('.parallax').parallax();
-    $('.sidenav').sidenav();
-    $('.carousel').carousel(
-        {
-          dist: 0,
-          padding: 0,
-          fullWidth: true,
-          indicators: true,
-          duration: 100,
-        }
-        );
-        autoplay()   
-    function autoplay() {
-        $('.carousel').carousel('next');
-        setTimeout(autoplay, 4500);
-    }
+$(document).ready(function () {
+  $('.parallax').parallax();
+  $('.sidenav').sidenav();
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true,
+   
   });
+  autoplay()
+  function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+   
+  }
+ 
+  
+  
+});
