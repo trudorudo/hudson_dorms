@@ -8,5 +8,9 @@ This is a one-page parallax website that includes all necessary information, con
 * JavaScript
 * Materialize
 
+
+  ![Alt Text](https://user-images.githubusercontent.com/47117323/62896065-3eb18280-bd1e-11e9-91f5-bd0dc92f2a43.png)
+  
+  
 # Live website
-[Link](https://jakal.herokuapp.com/)
+[Link](http://hudsondorms.com/)
